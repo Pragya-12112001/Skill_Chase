@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --heading-color: #464b62;
+    --text-color: #7c818a;
+    --background-color: #5743e2;
+}
+
+/* 1 */
+/* 2 */
+/* 3 */
+/* 4 */
+/* 5 */
+/* 6 */
+/* 7 */
+/* 8 Pragya Samadhiya */
+#mentors{
+    line-height: 1.5;
+    margin: 25px;
+    p{
+        text-align: center;
+        font-style: italic;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: var(--text-color);
+    }
+
+    .mentors-heading{
+        text-transform: capitalize;
+        font-size: 2.2rem;
+        color: var(--heading-color);
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-color);
+        align-items: center;
+        width: 290px;
+        height: 290px;
+        margin-top: 130px;
+        border-radius: 5%;
+
+        .mentor{
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            transform: translateY(-50%);
+        }
+
+        .card-data{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           margin-top: -70px;
+
+            h2{
+                font-size: 1.4rem;
+                color: #e8edfa;
+                text-transform: capitalize;
+                font-weight: 600;
+                padding: 1rem;
+            }
+    
+            hr{
+                width: 100%;
+                color: #6653eb;  
+            }
+    
+            h4{
+                font-size: 1rem;
+                font-weight: 400;
+                color: #e4e49f;
+                text-transform: capitalize;
+                padding: 1rem;
+            }
+    
+            .icon-linkedin{
+                width: 50px;
+                background-color: #6554e4;
+                padding: .8rem;
+                border-radius: 10px;
+            }
+        }
+
+        
+    }
+
+}
+/* 9 */
+/* 10 */
