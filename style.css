@@ -10,11 +10,25 @@
     --heading-color: #464b62;
     --text-color: #7c818a;
     --background-color: #5743e2;
+    --background-color-light: #8f56d8;
     --text-color-onBackground: #e8edfa;
     --text-yellow-color-onBackground: #e4e49f;
 }
 
-/* 1 */
+/* 1 Mohit Uniyal*/
+#banner{
+    text-align: center;
+    background: linear-gradient(to right, var(--background-color-light), var(--background-color));
+    color: var(--text-color-onBackground);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    span{
+        font-weight: 700;
+    }
+    a{
+        color: #e2ac77;
+    }
+}
 /* 2 */
 /* 3 */
 /* 4 */
