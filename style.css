@@ -100,6 +100,8 @@
         height: 290px;
         margin-top: 130px;
         border-radius: 5%;
+        justify-content: space-evenly;
+
 
         .mentor{
             width: 150px;
