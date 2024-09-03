@@ -34,20 +34,20 @@
 /* 4 */
 /* 5 */
 .accordion-button {
-            background-color: #5b5bf5;
-            color: white;
-        }
-        .accordion-button.collapsed {
-            background-color: #f8f9fa;
-            color: #000;
-        }
-        .list-item {
-            padding-left: 20px;
-        }
-        .section-title {
-            font-weight: bold;
-            color: #5b5bf5;
-        }
+    background-color: #5b5bf5;
+    color: white;
+}
+.accordion-button.collapsed {
+    background-color: #f8f9fa;
+    color: #000;
+}
+.list-item {
+    padding-left: 20px;
+}
+.section-title {
+    font-weight: bold;
+    color: #5b5bf5;
+}
 /* 6 */
 /* 7 */
 /* 8 Pragya Samadhiya */
