@@ -98,7 +98,7 @@
         align-items: center;
         justify-content: space-evenly;
         width: 280px;
-        height: 280px;
+        height: 290px;
         margin-top: 130px;
         border-radius: 5%;
 
@@ -120,12 +120,9 @@
                 color: var(--text-color-onBackground);
                 text-transform: capitalize;
                 font-weight: 600;
-/*                 padding: 1rem; */
-            }
-    
-            hr{
-                width: 100%;
-                color: #6653eb;  
+                border-bottom: 2px solid #6653eb;
+                padding: 1rem;
+                padding-top: .5rem;
             }
     
             h4{
@@ -133,7 +130,7 @@
                 font-weight: 400;
                 color: var(--text-yellow-color-onBackground);
                 text-transform: capitalize;
-                padding: 1rem;
+                padding: 0.5rem;
             }
     
             .icon-linkedin{
@@ -141,6 +138,7 @@
                 background-color: #6554e4;
                 padding: .8rem;
                 border-radius: 10px;
+                /* margin-bottom: 1rem; */
             }
         }
 
