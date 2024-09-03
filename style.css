@@ -100,8 +100,6 @@
         height: 290px;
         margin-top: 130px;
         border-radius: 5%;
-        justify-content: space-evenly;
-
 
         .mentor{
             width: 150px;
@@ -114,14 +112,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-           margin-top: -70px;
+            margin-top: -70px;
 
             h2{
                 font-size: 1.4rem;
                 color: var(--text-color-onBackground);
                 text-transform: capitalize;
                 font-weight: 600;
-                padding: 1rem;
+/*                 padding: 1rem; */
             }
     
             hr{
