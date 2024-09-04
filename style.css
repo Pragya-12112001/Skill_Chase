@@ -48,7 +48,7 @@
     font-weight: bold;
     color: #5b5bf5;
 }
-/* 6 */
+
  .accordion-button {
             background-color: #5b5bf5;
             color: white;
@@ -63,6 +63,99 @@
         .section-title {
             font-weight: bold;
             color: #5b5bf5;
+        }
+
+/*6 Manjot Kaur section 6 certificate */
+
+        /* Section for module download */
+        .module-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .module-section p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .module-download {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+
+
+        .syllabus-link:hover {
+            text-decoration: underline;
+        }
+
+        .input-field {
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 1px solid #dfe6e9;
+            width: 180px;
+        }
+
+        .download-btn {
+            background-color: #6c5ce7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #5a4ec7;
+        }
+
+        /* Section for certificates */
+        .certificate-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+        }
+
+        #left {
+            flex: 1;
+        }
+
+        #left h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #left ol {
+            font-size: 1.4rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        #right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            margin-left: 20px;
+        }
+
+        #right img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 /* 7 */
 /* 8 Pragya Samadhiya */
