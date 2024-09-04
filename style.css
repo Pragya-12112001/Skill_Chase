@@ -64,6 +64,149 @@
             font-weight: bold;
             color: #5b5bf5;
         }
+/* <<<<<<< section-7-mohit-uniyal */
+/* 7 Mohit Uniyal */
+
+#buy-course{
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    #comment{
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        #heading{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            h2{
+                font-size: 3.4rem;
+                color: var(--heading-color);
+            }
+            p{
+                font-size: 1..3rem;
+                color: var(--text-color);
+            }
+            svg{
+                width: 20%;
+                height: auto;
+                color: var(--background-color);
+            }
+        }
+        #comment-box{
+            width: 80%;
+            margin-left: auto;
+            padding: 1rem;
+            border: 1px solid rgb(202, 202, 202);
+            background-color: #f1f0f5;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            #profile{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                svg{
+                    width: 30%;
+                    height: 30%;
+                    color: var(--heading-color);
+                }
+                #name{
+                    font-size: 1.2rem;
+                    color: var(--heading-color);
+                }
+            }
+            #rating{
+                display: flex;
+                flex-direction: column;
+                #stars{
+                    color: goldenrod;
+                }
+            }
+        }
+    }
+    #courses{
+        width: 60%;
+        display: flex;
+        gap: 6rem;
+        .course{
+            width: 35%;
+            padding-top: 8rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            border: 1px solid rgb(202, 202, 202);
+            border-radius: 1rem;
+            position: relative;
+            .title-card{
+                position: absolute;
+                top: calc(-5rem);
+                left: calc(-10%);
+                width: 120%;
+                height: 9.5rem;
+                background-color: var(--background-color);
+                border-radius: 1.5rem;
+                padding-top: 1.5rem;
+                padding-left: 1.5rem;
+                color: white;
+                h3{
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    span{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            .logo{
+                position: absolute;
+                width: 30%;
+                padding: 0.5rem;
+                top: 1rem;
+                border: 2px solid var(--background-color);
+                border-radius: 1rem;
+                background-color: white;
+                svg{
+                    width: 100%;
+                    height: auto;
+                    color: var(--background-color);
+                }
+            }
+            .details{
+                h3{
+                    font-size: 1rem;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                ul{
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    padding: 0;
+                    color: var(--text-color);
+                    li svg{
+                        color: rgb(35, 180, 35);
+                    }
+                }
+            }
+            button{
+                color: var(--background-color);
+                background-color: transparent;
+                border: 2px solid var(--background-color);
+                border-radius: 1rem;
+                font-weight: 700;
+                padding: 0.7rem 1.5rem;
+            }
+        }
+    }
+}
+
+/* ======= */
 
 /*6 Manjot Kaur section 6 certificate */
 
@@ -158,6 +301,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 /* 7 */
+/* >>>>>>> main */
 /* 8 Pragya Samadhiya */
 #mentors{
     line-height: 1.5;
